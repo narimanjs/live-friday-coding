@@ -1,0 +1,23 @@
+{
+  "name": "live-friday-coding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "style": "sass --watch sass/style.scss sass/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narcash/live-friday-coding.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/narcash/live-friday-coding/issues"
+  },
+  "homepage": "https://github.com/narcash/live-friday-coding#readme",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  }
+}
