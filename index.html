@@ -209,36 +209,32 @@
     <!-- section about__us start --> 
     <section class="about-us">
         <div class="wrapper">
-            <h2>About Us</h2>
-            <p class="about-us_description">
-                Your About Us page is vital. It’s often the first stop in any user’s journey through a website or blog. It also shouldn’t be their last, because first impressions count online just as much as they do in the real world. If your visitors aren’t impressed, you can expect them to leave without reading your awesome content or completing a conversion action (e.g., signing up for your newsletter, making a purchase).
-            </p>
-            <div class="layout-3-column strategy-wrapper">
+            <h2 class="about-us__title">About Us</h2>
+            <p class="about-us__description">Your About Us page is vital. It’s often the first stop in any user’s journey through a website or blog. It also shouldn’t be their last, because first impressions count online just as much as they do in the real world. If your visitors aren’t impressed, you can expect them to leave without reading your awesome content or completing a conversion action (e.g., signing up for your newsletter, making a purchase).</p>
+            <div class="layout-3-column employee-container">
                 <div class="employee block-shadowed">
                     <div class="employee__content">
-                        <h5 class="employee__title">Kathy Rosenberg</h5>
-                        <p class="employee__subtitle">Product Mannager</p>
-                        <a href="mailto:kathyr@gmail.com">kathyr@gmail.com</a>
-                    </div>  
-                    <img class="employee__photo" src="./src/img/employees/Kathy.jpg" alt="Kathy Rosenberg">                    
-                </div>
-                <div class="employee block-shadowed">
-                    <div class="employee__content">
-                        <h5 class="employee__title">Alexandra Boyarskaya</h5>
-                        <p class="employee__subtitle">Support Marketing Specialist</p>
-                        <a href="mailto:alexandrab@gmail.com">alexandrab@gmail.com</a>
-                    </div> 
-                    <img class="employee__photo" src="./src/img/employees/Alexandra.jpg" alt="Alexandra Boyarskaya">                    
-
-                </div>
-                    <div class="employee block-shadowed">
-                        <div class="employee__content">
-                            <h5 class="employee__title">Melani Amini</h5>
-                            <p class="employee__subtitle">Photographer</p>
-                            <a href="mailto:melania@gmail.com">melania@gmail.com</a>
-                        </div>     
-                        <img class="employee__photo" src="./src/img/employees/Melani.jpg" alt="Melani Amini">                    
+                        <h5 class="employee__name">Kathy Rosenberg</h5>
+                        <p class="employee__title">Product Manager</p>
+                        <a class="employee__contact" href="mailto:kathyr@gmail.com">kathyr@gmail.com</a>
                     </div>
+                    <img class="employee__photo" src="./src/img/employees/kathy.png" alt="Kathy Rosenberg">
+                </div>
+                <div class="employee block-shadowed">
+                    <div class="employee__content">
+                        <h5 class="employee__name">Alexandra Boyarskaya</h5>
+                        <p class="employee__title">Support Marketing Specialist</p>
+                        <a class="employee__contact" href="mailto:alexandrab@gmail.com">alexandrab@gmail.com</a>
+                    </div>
+                    <img class="employee__photo" src="./src/img/employees/alexandra.png" alt="Alexandra Boyarskaya">
+                </div>
+                <div class="employee block-shadowed">
+                    <div class="employee__content">
+                        <h5 class="employee__name">Melani Amini</h5>
+                        <p class="employee__title">Photographer</p>
+                        <a class="employee__contact" href="mailto:melania@gmail.com">melania@gmail.com</a>
+                    </div>
+                    <img class="employee__photo" src="./src/img/employees/melani.png" alt="Melani Amini">
                 </div>
             </div>
         </div>
@@ -280,62 +276,40 @@
 
     <!--  footer start --> 
     <footer class="footer">
-        <div class="wrapper">
-            <div class="layout-4-column">
-                <a href="#!" class="logo">logo</a>
-                <div class="footer__navigation">
-                    <h4>Quick Links</h4>
-                    <ul class="footer__navigation_links">
-                        <li class="navigation_link">
-                            <a href="#!">About Us</a>
-                        </li>
-                        <li class="navigation_link">
-                            <a href="#!">Blog</a>
-                        </li>
-                        <li class="navigation_link">
-                            <a href="#!">Contact</a>
-                        </li>
-                        <li class="navigation_link">
-                            <a href="#!">FAQ</a>
-                        </li>
+        <div class="wrapper footer__wrapper">
+            <a href="#" class="logo">
+                <object type="image/svg+xml" data="./src/img/logo.svg" class="logo-object">
+                    Your browser does not support SVG
+                 </object>
+            </a>
+            <div class="footer-navigation layout-3-column">
+                <div class="footer-navigation__column">
+                    <h4 class="footer-navigation__title">Quick Links</h4>
+                    <ul class="footer-navigation__links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">FAQ</a></li>
                     </ul>
                 </div>
-
-                <div class="footer__navigation">
-                    <h4>Legal Stuff</h4>
-                    <ul class="footer__navigation_links">
-                        <li class="navigation_link">
-                            <a href="#!">Disclaimer</a>
-                        </li>
-                        <li class="navigation_link">
-                            <a href="#!">Financing</a>
-                        </li>
-                        <li class="navigation_link">
-                            <a href="#!">Privacy Policy</a>
-                        </li>
-                        <li class="navigation_link">
-                            <a href="#!">Terms of Service</a>
-                        </li>
+                <div class="footer-navigation__column">
+                    <h4 class="footer-navigation__title">Legal Stuff</h4>
+                    <ul class="footer-navigation__links">
+                        <li><a href="#">Disclaimer</a></li>
+                        <li><a href="#">Financing</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
                     </ul>
                 </div>
-                <div class="footer__navigation">
-                    <h4>Quick Links</h4>
-                    <ul class="footer__navigation_links">
-                        <li class="navigation_link">
-                            <a href="#!">About Us</a>
-                        </li>
-                        <li class="navigation_link">
-                            <a href="#!">Blog</a>
-                        </li>
-                        <li class="navigation_link">
-                            <a href="#!">Contact</a>
-                        </li>
-                        <li class="navigation_link">
-                            <a href="#!">FAQ</a>
-                        </li>
+                <div class="footer-navigation__column">
+                    <h4 class="footer-navigation__title">Quick Links</h4>
+                    <ul class="footer-navigation__links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">FAQ</a></li>
                     </ul>
                 </div>
-                
             </div>
         </div>
     </footer>

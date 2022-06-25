@@ -13,10 +13,3 @@
     }
     
 }
-a {
-    text-decoration: none;
-}
-a:hover {
-    @extend %transition;
-    color: $color-primary;
-}
