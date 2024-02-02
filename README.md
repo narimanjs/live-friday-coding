@@ -1,1 +1,1 @@
-# https://narcash.github.io/live-friday-coding/
+# https://narimanjs.github.io/live-friday-coding/
